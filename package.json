@@ -38,7 +38,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "echo \"이것은 커밋 전에 출력\""
+      "pre-commit": "eslint src/app.js --fix"
     }
   }
 }
