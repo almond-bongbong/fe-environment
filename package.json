@@ -33,12 +33,16 @@
   "dependencies": {
     "core-js": "^2.6.11",
     "husky": "^4.2.3",
+    "lint-staged": "^10.0.8",
     "prettier": "^1.19.1",
     "regenerator-runtime": "^0.13.3"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "eslint src/app.js --fix"
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix"
   }
 }

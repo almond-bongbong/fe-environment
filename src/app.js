@@ -1,3 +1,3 @@
-const foo = "";
+// const foo = "";
 
-console.log("hello");;;;;;;;;;;;;
+console.log("hello");
