@@ -37,7 +37,7 @@
     "axios": "^0.21.2",
     "copy-webpack-plugin": "^5.1.1",
     "core-js": "^2.6.11",
-    "husky": "^4.2.3",
+    "husky": "^4.3.8",
     "lint-staged": "^10.0.8",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
     "prettier": "^1.19.1",
